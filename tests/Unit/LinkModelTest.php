@@ -58,7 +58,7 @@ class LinkModelTest extends TestCase
         ]);
 
 //        $this->assertEquals($link->shortenedUrl(), env('CLIENT_URL') . '/' . $link->code);
-        $this->assertEquals($link->shortenedUrl(), env('APP_URL') . '/redirect/' . $link->code);
+        $this->assertEquals($link->shortenedUrl(), env('APP_URL') . '/' . $link->code);
     }
 
     /** @test */

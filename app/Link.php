@@ -45,6 +45,6 @@ class Link extends Model
         }
 
         //return env('CLIENT_URL') . '/' . $this->code;
-        return env('APP_URL') . '/redirect/' . $this->code;
+        return env('APP_URL') . '/' . $this->code;
     }
 }

@@ -10,8 +10,9 @@ class LinkStatsController extends Controller
 {
     public function show(Request $request)
     {
-        $code = $request->get('code');
 
+        $code = $request->get('code');
+        //todo: check cache
         $link = Cache::remember("stats.{$code}", 10, function () use ($code) {
             return Link::byCode($code)->first();
         });

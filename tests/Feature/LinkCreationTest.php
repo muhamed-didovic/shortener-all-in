@@ -50,7 +50,7 @@ class LinkCreationTest extends TestCase
                 'data' => [
                     'original_url'  => 'http://www.google.com',
 //                    'shortened_url' => env('CLIENT_URL') . '/1',
-                    'shortened_url' => env('APP_URL') . '/redirect/1',
+                    'shortened_url' => env('APP_URL') . '/1',
                     'code'          => '1',
                 ],
             ])
@@ -84,7 +84,7 @@ class LinkCreationTest extends TestCase
                 'data' => [
                     'original_url'  => 'http://www.google.com',
 //                    'shortened_url' => env('CLIENT_URL') . '/1',
-                    'shortened_url' => env('APP_URL') . '/redirect/1',
+                    'shortened_url' => env('APP_URL') . '/1',
                     'code'          => '1',
                 ],
             ])
