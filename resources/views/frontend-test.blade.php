@@ -15,27 +15,9 @@
 
     <!-- Styles -->
 {{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/shortener.css') }}" rel="stylesheet">
 
     <title>Shortener</title>
-    <style>
-        /*html, body {*/
-        /*    margin: 0;*/
-        /*    padding: 0;*/
-        /*    width: 100%;*/
-        /*    background-color: #d1d1d1*/
-        /*}*/
-        /*#mute {*/
-        /*    position: absolute;*/
-        /*}*/
-        /*#mute.on {*/
-        /*    opacity: 0.7;*/
-        /*    z-index: 1000;*/
-        /*    background: white;*/
-        /*    height: 100%;*/
-        /*    width: 100%;*/
-        /*}*/
-    </style>
 </head>
 <body>
 
@@ -43,6 +25,6 @@
 <div id="app"></div>
 <!-- Scripts -->
 {{--<script src="{{ asset('js/app.js') }}" defer></script>--}}
-<script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ asset('js/shortener.js') }}"></script>
 </body>
 </html>

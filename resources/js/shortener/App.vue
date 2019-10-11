@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss">
-  @import './assets/styles/app.scss';
+  @import '../../sass/shortener';
 
   * {
     box-sizing: border-box;
